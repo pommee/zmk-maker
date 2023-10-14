@@ -1,0 +1,136 @@
+.top-menu {
+  font-size: 26px;
+  background-color: cornflowerblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.icon-and-name {
+  margin-left: 40px;
+  background-color: transparent;
+}
+
+.icon-and-name i {
+  background-color: transparent;
+}
+
+.keyboard-configuration {
+  width: 80%;
+  justify-content: space-evenly;
+  margin-top: 15%;
+  display: flex;
+  position: relative;
+  left: 10%;
+}
+
+.left-keyboard,
+.right-keyboard {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-one,
+.column-two,
+.column-three,
+.column-four,
+.column-five,
+.column-six {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-keyboard .column-three {
+  margin-top: -20px;
+  z-index: 1;
+}
+
+.left-keyboard .column-four {
+  margin-top: -30px;
+  z-index: 1;
+}
+
+.left-keyboard .column-five {
+  margin-top: -20px;
+  z-index: 1;
+}
+
+.right-keyboard .column-two {
+  margin-top: -20px;
+  z-index: 1;
+}
+
+.right-keyboard .column-three {
+  margin-top: -30px;
+  z-index: 1;
+}
+
+.right-keyboard .column-four {
+  margin-top: -20px;
+  z-index: 1;
+}
+
+.key {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  background-color: #313131;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.special-key {
+  z-index: 2;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  background-color: #313131;
+}
+
+#left-special-key-one {
+  left: 30%;
+  top: 95%;
+}
+
+#left-special-key-two {
+  left: 36%;
+  top: 105%;
+  transform: rotate(5deg);
+}
+
+#left-special-key-three {
+  left: 42%;
+  top: 110%;
+  transform: rotate(15deg);
+}
+
+#right-special-key-one {
+  right: 30%;
+  top: 95%;
+}
+
+#right-special-key-two {
+  right: 36%;
+  top: 105%;
+  transform: rotate(-5deg);
+}
+
+#right-special-key-three {
+  right: 42%;
+  top: 110%;
+  transform: rotate(-15deg);
+}
+
+.key:hover {
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
